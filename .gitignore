@@ -32,5 +32,5 @@ out/
 .vscode/
 
 ### 画面のリソースはVueが生成するのでまるごとIgnoreとする ###
-src/main/resoureces/static/
-web/node_modules/
+/src/main/resources/static/
+/web/node_modules/
