@@ -34,3 +34,5 @@ out/
 ### 画面のリソースはVueが生成するのでまるごとIgnoreとする ###
 /src/main/resources/static/
 /web/node_modules/
+
+.DS_Store
