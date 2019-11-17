@@ -2,11 +2,9 @@ package com.example.geminiapi.service
 
 import com.example.geminiapi.domain.Currency
 import com.example.geminiapi.domain.CurrencyRepository
-import lombok.RequiredArgsConstructor
 import org.springframework.stereotype.Service
 
 @Service
-@RequiredArgsConstructor
 class CurrencyService(private val currencyRepository: CurrencyRepository) {
 
     fun findAll() : List<Currency> {

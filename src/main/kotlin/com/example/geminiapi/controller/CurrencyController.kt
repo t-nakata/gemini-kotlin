@@ -2,13 +2,11 @@ package com.example.geminiapi.controller
 
 import com.example.geminiapi.domain.Currency
 import com.example.geminiapi.service.CurrencyService
-import lombok.RequiredArgsConstructor
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequiredArgsConstructor
 class CurrencyController(
     private val currencyService: CurrencyService
 ) {

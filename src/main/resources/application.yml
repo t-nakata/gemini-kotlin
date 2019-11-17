@@ -3,6 +3,9 @@ spring:
     url: jdbc:mysql://localhost:3306/springboot_flyway?autoReconnect=true&useSSL=false
     username: web_app
     password: hogehoge
-    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
 server:
   port: 8080
